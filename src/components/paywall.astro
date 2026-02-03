@@ -3,6 +3,11 @@
 ---
 
 <section id="pricing" class="pricing">
+  <header>
+    <h1>PRICING PLAN</h1>
+    <p>Lorem ipsum dolor sit amet et delectus accommodare his lorem ipsum</p>
+  </header>
+
   <section class="paymentChoice">
     <button><span class="buttonTop">Monthly</span></button>
     <button><span class="buttonTop">Yearly</span></button>
@@ -20,21 +25,21 @@
       <h3>Professional</h3>
       <p class="price">$19.99</p>
       <ul><li>really cool feature</li><li>another cool feature</li></ul>
-      <button><span class="buttonTop">Choose Student</span></button>
+      <button><span class="buttonTop">Choose Professional</span></button>
     </article>
 
     <article class="plan">
       <h3>Business</h3>
       <p class="price">$99.99</p>
       <ul><li>for large teams</li><li>all the previous</li></ul>
-      <button><span class="buttonTop">Choose Student</span></button>
+      <button><span class="buttonTop">Choose Business</span></button>
     </article>
   </section>
 </section>
 
 <style lang="scss">
   * {
-    color: #383030;
+    color: #584c4c;
   }
 
   .pricing {
@@ -42,6 +47,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    border-top: solid;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #584c4c;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
   }
 
   .planSection {
@@ -91,7 +109,7 @@
     background-color: #fff;
     padding: 0.75em 1.5em;
     color: #000;
-    margin: 0 -4px 0 -4px;
+    margin: 0 -6px 0 -6px;
     transform: translateY(-0.45em);
     transition: 0.1s ease;
   }
